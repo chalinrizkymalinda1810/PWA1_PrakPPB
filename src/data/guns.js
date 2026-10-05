@@ -53,6 +53,30 @@ const GUNS = [
     description:
       'The other pump gun. Twin action bars, a simple safety on the tang, and a price that leaves money for ammunition.',
   },
+  {
+    name: 'M1 Garand',
+    type: 'Rifle',
+    caliber: '.30-06 Springfield',
+    price: 1100,
+    image: '/guns/m1-garand.png',
+    description: 'The greatest battle implement ever devised. An eight-round en-bloc clip, heavy wood stock, and the iconic ping when it runs dry.',
+  },
+  {
+    name: 'Colt Python',
+    type: 'Pistol',
+    caliber: '.357 Magnum',
+    price: 1499,
+    image: '/guns/colt-python.jpg',
+    description: 'A premium double-action revolver. Known for its accuracy, smooth trigger pull, and tight cylinder lock-up. A classic wheel gun.',
+  },
+  {
+    name: 'Benelli M4',
+    type: 'Shotgun',
+    caliber: '12 Gauge',
+    price: 1899,
+    image: '/guns/benelli-m4.png',
+    description: 'Gas-operated semi-automatic tactical shotgun. Used by military and law enforcement worldwide. Extremely reliable under all conditions.',
+  },
 ]
 
 export default GUNS
